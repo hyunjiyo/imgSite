@@ -126,6 +126,10 @@ input, button, i{
   cursor: pointer;
   background: #8a6cff;
 }
+.gallery .load-more.disabled{
+  opacity: 0.6;
+  pointer-events: none;
+}
 
 .lightbox{
   position: fixed;
